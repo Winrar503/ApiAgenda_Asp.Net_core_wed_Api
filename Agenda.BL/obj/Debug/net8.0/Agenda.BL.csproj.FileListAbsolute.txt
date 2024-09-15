@@ -1,0 +1,17 @@
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.BL.deps.json
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.BL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.BL.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.DAL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.EN.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.DAL.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\bin\Debug\net8.0\Agenda.EN.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.csproj.AssemblyReference.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.AssemblyInfo.cs
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.csproj.Up2Date
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\refint\Agenda.BL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\ref\Agenda.BL.dll

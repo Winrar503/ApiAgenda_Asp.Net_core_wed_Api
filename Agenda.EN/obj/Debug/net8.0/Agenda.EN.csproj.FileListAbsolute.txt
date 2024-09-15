@@ -1,0 +1,12 @@
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\bin\Debug\net8.0\Agenda.EN.deps.json
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\bin\Debug\net8.0\Agenda.EN.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\bin\Debug\net8.0\Agenda.EN.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.csproj.AssemblyReference.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.AssemblyInfoInputs.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.AssemblyInfo.cs
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.csproj.CoreCompileInputs.cache
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\refint\Agenda.EN.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\Agenda.EN.pdb
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.EN\obj\Debug\net8.0\ref\Agenda.EN.dll
