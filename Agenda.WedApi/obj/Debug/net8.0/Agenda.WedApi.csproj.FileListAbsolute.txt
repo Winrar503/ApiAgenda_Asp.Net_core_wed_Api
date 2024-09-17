@@ -78,3 +78,5 @@ C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\obj\De
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\obj\Debug\net8.0\Agenda.WedApi.pdb
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\obj\Debug\net8.0\Agenda.WedApi.genruntimeconfig.cache
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\obj\Debug\net8.0\ref\Agenda.WedApi.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\obj\Debug\net8.0\Agenda.WedApi.sourcelink.json
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.WedApi\bin\Debug\net8.0\AutoMapper.dll

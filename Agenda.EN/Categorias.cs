@@ -14,10 +14,8 @@ namespace Agenda.EN
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage = "El nombre de la categoria es requerido")]
-        [Display(Name = "Nombre")]
         public string Nombre { get; set; }
-        public bool Eliminado { get; set; }
+        //public bool Eliminado { get; set; }
 
         [NotMapped]
         public int Top_Aux {  get; set; }

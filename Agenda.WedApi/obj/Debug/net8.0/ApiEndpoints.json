@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Categorias, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Categorias.CategoriaSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categorias",
-        "Type": "Agenda.EN.Categorias",
+        "Name": "categoriaGuardar",
+        "Type": "Agenda.WedApi.Dtos.Categorias.CategoriaGuardar",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Categorias",
+        "Type": "Agenda.WedApi.Dtos.Categorias.CategoriaSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -75,8 +75,8 @@
         "IsRequired": true
       },
       {
-        "Name": "categorias",
-        "Type": "Agenda.EN.Categorias",
+        "Name": "categoriaModificar",
+        "Type": "Agenda.WedApi.Dtos.Categorias.CategoriaModificar",
         "IsRequired": true
       }
     ],
@@ -114,7 +114,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Categorias, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Categorias.CategoriaSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -134,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Contactos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Contactos.ContactosSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -153,8 +153,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "contactos",
-        "Type": "Agenda.EN.Contactos",
+        "Name": "contactosGuardar",
+        "Type": "Agenda.WedApi.Dtos.Contactos.ContactosGuardar",
         "IsRequired": true
       }
     ],
@@ -176,7 +176,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Contactos",
+        "Type": "Agenda.WedApi.Dtos.Contactos.ContactosSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -200,8 +200,8 @@
         "IsRequired": true
       },
       {
-        "Name": "contactos",
-        "Type": "Agenda.EN.Contactos",
+        "Name": "contactosModifcar",
+        "Type": "Agenda.WedApi.Dtos.Contactos.ContactosModifcar",
         "IsRequired": true
       }
     ],
@@ -239,7 +239,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Contactos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Contactos.ContactosSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -259,7 +259,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Eventos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Eventos.EventosSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -278,8 +278,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "eventos",
-        "Type": "Agenda.EN.Eventos",
+        "Name": "eventosGuardar",
+        "Type": "Agenda.WedApi.Dtos.Eventos.EventosGuardar",
         "IsRequired": true
       }
     ],
@@ -301,7 +301,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Eventos",
+        "Type": "Agenda.WedApi.Dtos.Eventos.EventosSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -325,8 +325,8 @@
         "IsRequired": true
       },
       {
-        "Name": "eventos",
-        "Type": "Agenda.EN.Eventos",
+        "Name": "eventosModificar",
+        "Type": "Agenda.WedApi.Dtos.Eventos.EventosModificar",
         "IsRequired": true
       }
     ],
@@ -364,7 +364,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Eventos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Eventos.EventosSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -384,7 +384,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Contactos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Notas.NotasSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -403,8 +403,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "contactos",
-        "Type": "Agenda.EN.Contactos",
+        "Name": "notasGuardar",
+        "Type": "Agenda.WedApi.Dtos.Notas.NotasGuardar",
         "IsRequired": true
       }
     ],
@@ -426,7 +426,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Contactos",
+        "Type": "Agenda.WedApi.Dtos.Notas.NotasSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -450,8 +450,8 @@
         "IsRequired": true
       },
       {
-        "Name": "contactos",
-        "Type": "Agenda.EN.Contactos",
+        "Name": "notasModificar",
+        "Type": "Agenda.WedApi.Dtos.Notas.NotasModificar",
         "IsRequired": true
       }
     ],
@@ -482,14 +482,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pContactos",
+        "Name": "pProyecto",
         "Type": "System.Object",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Contactos, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Notas.NotasSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -502,14 +502,14 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Get",
-    "RelativePath": "api/Rol",
+    "RelativePath": "api/roles",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Rol, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Rol.RolSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -522,14 +522,14 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Post",
-    "RelativePath": "api/Rol",
+    "RelativePath": "api/roles",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "rol",
-        "Type": "Agenda.EN.Rol",
+        "Name": "rolGuardar",
+        "Type": "Agenda.WedApi.Dtos.Rol.RolGuardar",
         "IsRequired": true
       }
     ],
@@ -538,7 +538,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Get",
-    "RelativePath": "api/Rol/{id}",
+    "RelativePath": "api/roles/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -551,7 +551,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Rol",
+        "Type": "Agenda.WedApi.Dtos.Rol.RolSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -564,7 +564,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Put",
-    "RelativePath": "api/Rol/{id}",
+    "RelativePath": "api/roles/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -575,8 +575,8 @@
         "IsRequired": true
       },
       {
-        "Name": "rol",
-        "Type": "Agenda.EN.Rol",
+        "Name": "rolModificar",
+        "Type": "Agenda.WedApi.Dtos.Rol.RolModificar",
         "IsRequired": true
       }
     ],
@@ -585,7 +585,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Delete",
-    "RelativePath": "api/Rol/{id}",
+    "RelativePath": "api/roles/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -601,7 +601,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.RolController",
     "Method": "Buscar",
-    "RelativePath": "api/Rol/Buscar",
+    "RelativePath": "api/roles/Buscar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -614,7 +614,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Rol, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Rol.RolSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -627,14 +627,14 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Get",
-    "RelativePath": "api/Usuario",
+    "RelativePath": "api/usuarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.EN.Usuario, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Agenda.WedApi.Dtos.Usuario.UsuarioSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -647,14 +647,14 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Post",
-    "RelativePath": "api/Usuario",
+    "RelativePath": "api/usuarios",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "Agenda.EN.Usuario",
+        "Name": "usuarioGuardar",
+        "Type": "Agenda.WedApi.Dtos.Usuario.UsuarioGuardar",
         "IsRequired": true
       }
     ],
@@ -663,7 +663,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Get",
-    "RelativePath": "api/Usuario/{id}",
+    "RelativePath": "api/usuarios/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -676,7 +676,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Agenda.EN.Usuario",
+        "Type": "Agenda.WedApi.Dtos.Usuario.UsuarioSalida",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -689,7 +689,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Put",
-    "RelativePath": "api/Usuario/{id}",
+    "RelativePath": "api/usuarios/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -700,8 +700,8 @@
         "IsRequired": true
       },
       {
-        "Name": "pUsuario",
-        "Type": "System.Object",
+        "Name": "usuarioModificar",
+        "Type": "Agenda.WedApi.Dtos.Usuario.UsuarioModificar",
         "IsRequired": true
       }
     ],
@@ -710,7 +710,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Delete",
-    "RelativePath": "api/Usuario/{id}",
+    "RelativePath": "api/usuarios/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -726,7 +726,7 @@
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Buscar",
-    "RelativePath": "api/Usuario/Buscar",
+    "RelativePath": "api/usuarios/Buscar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -739,7 +739,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Agenda.EN.Usuario, Agenda.EN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Agenda.WedApi.Dtos.Usuario.UsuarioSalida, Agenda.WedApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -751,31 +751,15 @@
   },
   {
     "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
-    "Method": "CambiarPassword",
-    "RelativePath": "api/Usuario/CambiarPassword",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "pUsuario",
-        "Type": "System.Object",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Agenda.WedApi.Controllers.UsuarioController",
     "Method": "Login",
-    "RelativePath": "api/Usuario/Login",
+    "RelativePath": "api/usuarios/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pUsuario",
-        "Type": "System.Object",
+        "Name": "usuarioLogin",
+        "Type": "Agenda.WedApi.Dtos.Usuario.UsuarioLogin",
         "IsRequired": true
       }
     ],

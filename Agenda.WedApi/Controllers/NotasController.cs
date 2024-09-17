@@ -1,5 +1,10 @@
 ﻿using Agenda.BL;
 using Agenda.EN;
+using Agenda.WedApi.Dtos.Categorias;
+using Agenda.WedApi.Dtos.Contactos;
+using Agenda.WedApi.Dtos.Eventos;
+using Agenda.WedApi.Dtos.Notas;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,30 +17,35 @@ namespace Agenda.WedApi.Controllers
     [Authorize]
     public class NotasController : Controller
     {
-        private ContactosBL deptoBL = new ContactosBL();
+        private NotasBL notasBL = new NotasBL();
+        private IMapper mapper;
+
+        public NotasController(IMapper mapper)
+        {
+            this.mapper = mapper;
+        }
 
         [HttpGet]
-        [AllowAnonymous]
-        public async Task<IEnumerable<Contactos>> Get()
+        public async Task<IEnumerable<NotasSalida>> Get()
         {
-            return await deptoBL.ObtenerTodosAsync();
+            List<Notas> proyectos = await notasBL.ObtenerTodosAsync();
+            return mapper.Map<IEnumerable<NotasSalida>>(proyectos);
         }
 
         [HttpGet("{id}")]
-        public async Task<Contactos> Get(int id)
+        public async Task<NotasSalida> Get(int id)
         {
-            Contactos depto = new Contactos();
-            depto.Id = id;
-            return await deptoBL.ObtenerPorIdAsync(depto);
+            Notas nota = await notasBL.ObtenerPorIdAsync(new Notas { Id = id });
+            return mapper.Map<NotasSalida>(nota);
         }
 
         [HttpPost]
-        [AllowAnonymous]
-        public async Task<ActionResult> Post([FromBody] Contactos contactos)
+        public async Task<ActionResult> Post([FromBody] NotasGuardar notasGuardar)
         {
             try
             {
-                await deptoBL.CrearAsync(contactos);
+                Notas notas = mapper.Map<Notas>(notasGuardar);
+                await notasBL.CrearAsync(notas);
                 return Ok();
             }
             catch (Exception)
@@ -45,19 +55,19 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Contactos contactos)
+        public async Task<ActionResult> Put(int id, [FromBody] NotasModificar notasModificar)
         {
 
-            if (contactos.Id == id)
+            if (notasModificar.Id == id)
             {
-                await deptoBL.ModificarAsync(contactos);
+                Notas notas = mapper.Map<Notas>(notasModificar);
+                await notasBL.ModificarAsync(notas);
                 return Ok();
             }
             else
             {
                 return BadRequest();
             }
-
         }
 
         [HttpDelete("{id}")]
@@ -65,9 +75,9 @@ namespace Agenda.WedApi.Controllers
         {
             try
             {
-                Contactos depto = new Contactos();
+                Notas depto = new Notas();
                 depto.Id = id;
-                await deptoBL.EliminarAsync(depto);
+                await notasBL.EliminarAsync(depto);
                 return Ok();
             }
             catch (Exception)
@@ -77,12 +87,13 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPost("Buscar")]
-        public async Task<List<Contactos>> Buscar([FromBody] object pContactos)
+        public async Task<List<NotasSalida>> Buscar([FromBody] object pProyecto)
         {
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            string strDepto = JsonSerializer.Serialize(pContactos);
-            Contactos depto = JsonSerializer.Deserialize<Contactos>(strDepto, option);
-            return await deptoBL.BuscarAsync(depto);
+            string strProyecto = JsonSerializer.Serialize(pProyecto);
+            Notas nota = JsonSerializer.Deserialize<Notas>(strProyecto, option);
+            List<Notas> notas = await notasBL.BuscarAsync(nota);
+            return mapper.Map<List<NotasSalida>>(notas);
         }
     }
 }

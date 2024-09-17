@@ -13,3 +13,4 @@ C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.DAL\obj\Debug
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.DAL\obj\Debug\net8.0\refint\Agenda.DAL.dll
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.DAL\obj\Debug\net8.0\Agenda.DAL.pdb
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.DAL\obj\Debug\net8.0\ref\Agenda.DAL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.DAL\obj\Debug\net8.0\Agenda.DAL.sourcelink.json

@@ -15,3 +15,4 @@ C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\refint\Agenda.BL.dll
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.pdb
 C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\ref\Agenda.BL.dll
+C:\Users\darwi\OneDrive\Escritorio\Universidad\C#\ApiAgenda\Agenda.BL\obj\Debug\net8.0\Agenda.BL.sourcelink.json

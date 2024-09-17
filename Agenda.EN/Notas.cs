@@ -13,16 +13,10 @@ namespace Agenda.EN
     {
         [Key]
         public int Id { get; set; }
-
         [ForeignKey("Contactos")]
-        
-        [Display(Name = "Contactos")]
         public int? IdContactos { get; set; }
-        [Required(ErrorMessage = "Escriba una nota")]
-
-        [Display(Name = "Contenido")]
-        public string contenido { get; set; }
-        public bool Eliminado { get; set; }
+        public string Contenido { get; set; }
+        //public bool Eliminado { get; set; }
         
 
         [NotMapped]

@@ -14,9 +14,8 @@ namespace Agenda.EN
         [Key]
         public int Id { get; set; }
         [ForeignKey("Categorias")]
-       
         public int? IdCategoria { get; set; }
-        public bool Eliminado { get; set; }
+        //public bool Eliminado { get; set; }
         public string Email { get; set; }       
         public string FotoPath { get; set; }       
         public string Nombre { get; set; }

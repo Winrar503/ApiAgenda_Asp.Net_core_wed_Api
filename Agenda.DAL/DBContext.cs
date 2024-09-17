@@ -17,9 +17,14 @@ namespace Agenda.DAL
         public DbSet<Notas> Notas { get; set; } 
         public DbSet<Eventos> Eventos { get; set; }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DARWIN;Initial Catalog=Contacto;Integrated Security=True; encrypt = false; trustServerCertificate = True");
+            optionsBuilder.UseSqlServer(@"Data Source = DARWIN;
+                                            Initial Catalog = Contacto;
+                                            Integrated Security = True; 
+                                            encrypt = false; 
+                                            trustServerCertificate = True");
         }
     }
 }

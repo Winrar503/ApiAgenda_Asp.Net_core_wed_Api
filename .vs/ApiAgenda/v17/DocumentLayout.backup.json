@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\auth\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\auth\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.bl\\notasbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|solutionrelative:agenda.bl\\notasbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.dal\\contactosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|solutionrelative:agenda.dal\\contactosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\auth\\ijwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\auth\\ijwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\usuario\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\usuario\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\usuario\\usuarioguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\usuario\\usuarioguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\usuario\\usuariomodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\usuario\\usuariomodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\usuario\\usuariosalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\usuario\\usuariosalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\rol\\rolguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\rol\\rolguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\rol\\rolmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\rol\\rolmodificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\dtos\\rol\\rolsalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\dtos\\rol\\rolsalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,35 +58,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotasController.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\NotasController.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Controllers\\NotasController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:22:32.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Program.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Program.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Program.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Program.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEkAAAA3AAAA",
+              "DocumentIndex": 1,
+              "Title": "NotasBL.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.BL\\NotasBL.cs",
+              "RelativeDocumentMoniker": "Agenda.BL\\NotasBL.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.BL\\NotasBL.cs",
+              "RelativeToolTip": "Agenda.BL\\NotasBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:37:21.34Z"
+              "WhenOpened": "2024-09-17T03:22:28.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IJwtAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Auth\\IJwtAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Auth\\IJwtAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Auth\\IJwtAuthenticationService.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Auth\\IJwtAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "DocumentIndex": 2,
+              "Title": "ContactosDAL.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\ContactosDAL.cs",
+              "RelativeDocumentMoniker": "Agenda.DAL\\ContactosDAL.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\ContactosDAL.cs",
+              "RelativeToolTip": "Agenda.DAL\\ContactosDAL.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:55:32.011Z"
+              "WhenOpened": "2024-09-17T03:22:12.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,70 +107,114 @@
               "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Agenda.WedApi\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:31:24.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwEoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T17:23:07.679Z",
+              "WhenOpened": "2024-09-17T03:20:05.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Auth\\JwtAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Auth\\JwtAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Auth\\JwtAuthenticationService.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Auth\\JwtAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:56:18.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Agenda.WedApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T15:45:55.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\RolController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\RolController.cs",
               "RelativeToolTip": "Agenda.WedApi\\Controllers\\RolController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwAsAAAAPAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:29:30.143Z"
+              "WhenOpened": "2024-09-17T03:17:07.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioLogin.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioLogin.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioLogin.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioLogin.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:16:28.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioGuardar.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioGuardar.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioGuardar.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioGuardar.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioGuardar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:14:11.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Controllers\\NotasController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "UsuarioModificar.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioModificar.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioModificar.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioModificar.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioModificar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:03:12.093Z"
+              "WhenOpened": "2024-09-17T03:12:34.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioSalida.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioSalida.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioSalida.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Usuario\\UsuarioSalida.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Usuario\\UsuarioSalida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:11:26.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RolGuardar.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolGuardar.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Rol\\RolGuardar.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolGuardar.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Rol\\RolGuardar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:06:10.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolModificar.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolModificar.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Rol\\RolModificar.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolModificar.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Rol\\RolModificar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:05:12.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolSalida.cs",
+              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolSalida.cs",
+              "RelativeDocumentMoniker": "Agenda.WedApi\\Dtos\\Rol\\RolSalida.cs",
+              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Dtos\\Rol\\RolSalida.cs",
+              "RelativeToolTip": "Agenda.WedApi\\Dtos\\Rol\\RolSalida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:03:54.166Z",
+              "EditorCaption": ""
             }
           ]
         }

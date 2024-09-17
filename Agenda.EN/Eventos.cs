@@ -15,16 +15,11 @@ namespace Agenda.EN
         public int Id { get; set; }
 
         [ForeignKey("Contactos")]
-        [Required(ErrorMessage = "Rol es obligatorio")]
-        [Display(Name = "Contactos")]
         public int? IdContactos { get; set; }
-        //Opcional
-        [Display(Name = "Descipcion")]
+
         public string Descripcion { get; set; }
         public DateTime? Fin { get; set; }
         public DateTime? Inicio { get; set; }
-        [Required(ErrorMessage = "El titulo es requerido")]
-        [Display(Name = "Titulo")]
         public string Titulo { get; set; }
         
 

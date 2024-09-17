@@ -1,5 +1,8 @@
 ﻿using Agenda.BL;
 using Agenda.EN;
+using Agenda.WedApi.Dtos.Contactos;
+using Agenda.WedApi.Dtos.Eventos;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,28 +16,34 @@ namespace Agenda.WedApi.Controllers
     public class EventosController : Controller
     {
         private EventosBL deptoBL = new EventosBL();
+        private IMapper mapper;
+        public EventosController(IMapper mapper)
+        {
+            this.mapper = mapper;
+        }
 
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IEnumerable<Eventos>> Get()
+        public async Task<IEnumerable<EventosSalida>> Get()
         {
-            return await deptoBL.ObtenerTodosAsync();
+            List<Eventos> eventos= await deptoBL.ObtenerTodosAsync();
+            return mapper.Map<IEnumerable<EventosSalida>>(eventos);
         }
 
         [HttpGet("{id}")]
-        public async Task<Eventos> Get(int id)
+        public async Task<EventosSalida> Get(int id)
         {
-            Eventos depto = new Eventos();
-            depto.Id = id;
-            return await deptoBL.ObtenerPorIdAsync(depto);
+            Eventos eventos = await deptoBL.ObtenerPorIdAsync(new Eventos { Id = id });
+            return mapper.Map<EventosSalida>(eventos  );
         }
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<ActionResult> Post([FromBody] Eventos eventos)
+        public async Task<ActionResult> Post([FromBody] EventosGuardar eventosGuardar)
         {
             try
             {
+                Eventos eventos = mapper.Map<Eventos>(eventosGuardar);
                 await deptoBL.CrearAsync(eventos);
                 return Ok();
             }
@@ -45,11 +54,12 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Eventos eventos)
+        public async Task<ActionResult> Put(int id, [FromBody] EventosModificar eventosModificar)
         {
 
-            if (eventos.Id == id)
+            if (eventosModificar.Id == id)
             {
+                Eventos eventos = mapper.Map<Eventos>(eventosModificar);
                 await deptoBL.ModificarAsync(eventos);
                 return Ok();
             }
@@ -77,12 +87,13 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPost("Buscar")]
-        public async Task<List<Eventos>> Buscar([FromBody] object pEventos)
+        public async Task<List<EventosSalida>> Buscar([FromBody] object pEventos)
         {
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             string strDepto = JsonSerializer.Serialize(pEventos);
             Eventos depto = JsonSerializer.Deserialize<Eventos>(strDepto, option);
-            return await deptoBL.BuscarAsync(depto);
+            List<Eventos> eventos = await deptoBL.BuscarAsync(depto);
+            return mapper.Map<List<EventosSalida>>(depto);
         }
     }
     

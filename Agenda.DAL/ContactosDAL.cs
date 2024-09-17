@@ -34,7 +34,6 @@ namespace Agenda.DAL
                 contactos.QrCodePath = pContactos.QrCodePath;
                 contactos.FotoPath = pContactos.FotoPath;
                 contactos.Email = pContactos.Email; 
-                contactos.Eliminado = pContactos.Eliminado; 
                 contactos.IdCategoria = pContactos.IdCategoria;
             }
             return result;

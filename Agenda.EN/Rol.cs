@@ -13,9 +13,6 @@ namespace Agenda.EN
     {
         [Key]
         public int Id { get; set; }
-
-        [Required(ErrorMessage = "Nombre es obligatorio")]
-        [StringLength(30, ErrorMessage = "Maximo 30 caracteres")]
         public string Nombre { get; set; }
 
         [NotMapped]

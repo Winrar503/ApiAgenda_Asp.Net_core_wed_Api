@@ -28,7 +28,7 @@ namespace Agenda.DAL
             {
                 var categorias = await bdContexto.Categorias.FirstOrDefaultAsync(c => c.Id == pCategorias.Id);
                 categorias.Nombre = pCategorias.Nombre;
-                categorias.Eliminado = pCategorias.Eliminado;
+                
 
             }
             return result;

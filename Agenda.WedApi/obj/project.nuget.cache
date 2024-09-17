@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PTlblNZR8Vg=",
+  "dgSpecHash": "QXs8hgVI/4E=",
   "success": true,
   "projectFilePath": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Agenda.WedApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\darwi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\darwi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\darwi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\darwi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

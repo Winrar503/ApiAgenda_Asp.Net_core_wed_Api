@@ -1,5 +1,7 @@
 ﻿using Agenda.BL;
 using Agenda.EN;
+using Agenda.WedApi.Dtos.Categorias;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,28 +15,36 @@ namespace Agenda.WedApi.Controllers
     public class CategoriasController : Controller
     {
         private CategoriasBL deptoBL = new CategoriasBL();
+        private IMapper mapper;
+        //Inyeccion de dependencia
+        public CategoriasController(IMapper mapper)
+        {
+            this.mapper = mapper;
+        }
 
         [HttpGet]
         [AllowAnonymous]
-        public async Task<IEnumerable<Categorias>> Get()
+        public async Task<IEnumerable<CategoriaSalida>> Get()
         {
-            return await deptoBL.ObtenerTodosAsync();
+            List<Categorias> categorias = await deptoBL.ObtenerTodosAsync();
+            return mapper.Map<IEnumerable<CategoriaSalida>>(categorias); 
         }
 
         [HttpGet("{id}")]
-        public async Task<Categorias> Get(int id)
+        public async Task<CategoriaSalida> Get(int id)
         {
-            Categorias depto = new Categorias();
-            depto.Id = id;
-            return await deptoBL.ObtenerPorIdAsync(depto);
+            Categorias depto = await deptoBL.ObtenerPorIdAsync(new Categorias { Id = id });
+            return mapper.Map<CategoriaSalida>(depto);
+
         }
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<ActionResult> Post([FromBody] Categorias categorias)
+        public async Task<ActionResult> Post([FromBody] CategoriaGuardar categoriaGuardar)
         {
             try
             {
+                Categorias categorias = mapper.Map<Categorias>(categoriaGuardar);
                 await deptoBL.CrearAsync(categorias);
                 return Ok();
             }
@@ -45,11 +55,12 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Categorias categorias)
+        public async Task<ActionResult> Put(int id, [FromBody] CategoriaModificar categoriaModificar)
         {
 
-            if (categorias.Id == id)
+            if (categoriaModificar.Id == id)
             {
+                Categorias categorias = mapper.Map<Categorias>(categoriaModificar);
                 await deptoBL.ModificarAsync(categorias);
                 return Ok();
             }
@@ -77,12 +88,13 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPost("Buscar")]
-        public async Task<List<Categorias>> Buscar([FromBody] object pCategorias)
+        public async Task<List<CategoriaSalida>> Buscar([FromBody] object pCategorias)
         {
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             string strDepto = JsonSerializer.Serialize(pCategorias);
             Categorias depto = JsonSerializer.Deserialize<Categorias>(strDepto, option);
-            return await deptoBL.BuscarAsync(depto);
+            List<Categorias> categorias = await deptoBL.BuscarAsync(depto);
+            return mapper.Map<List<CategoriaSalida>>(categorias);
         }
     }
 }

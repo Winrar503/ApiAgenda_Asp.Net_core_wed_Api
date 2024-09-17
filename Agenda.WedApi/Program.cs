@@ -74,6 +74,7 @@ builder.Services
 builder.Services.AddSingleton<IJwtAuthenticationService>(new JwtAuthenticationService(key));
 #endregion
 
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
