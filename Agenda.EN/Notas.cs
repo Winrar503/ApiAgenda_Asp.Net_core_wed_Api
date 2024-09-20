@@ -14,10 +14,11 @@ namespace Agenda.EN
         [Key]
         public int Id { get; set; }
         [ForeignKey("Contactos")]
-        public int? IdContactos { get; set; }
+        [Column("IdContactos")]
+        public int IdContactos { get; set; }
         public string Contenido { get; set; }
-        //public bool Eliminado { get; set; }
-        
+        public bool Elimidao { get; set; } = false;
+
 
         [NotMapped]
         public int Top_Aux {  get; set; }

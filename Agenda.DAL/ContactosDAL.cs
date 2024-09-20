@@ -17,8 +17,12 @@ namespace Agenda.DAL
             int result = 0;
             using (var bdContexto = new DBContext())
             {
-                bdContexto.Add(pContactos);
-                result = await bdContexto.SaveChangesAsync();
+                try
+                {
+                    bdContexto.Add(pContactos);
+                    result = await bdContexto.SaveChangesAsync();
+                }
+                catch (Exception ex) { }
             }
             return result;
         }
@@ -34,7 +38,7 @@ namespace Agenda.DAL
                 contactos.QrCodePath = pContactos.QrCodePath;
                 contactos.FotoPath = pContactos.FotoPath;
                 contactos.Email = pContactos.Email; 
-                contactos.IdCategoria = pContactos.IdCategoria;
+                contactos.CategoriasId = pContactos.CategoriasId;
             }
             return result;
         }
@@ -60,6 +64,10 @@ namespace Agenda.DAL
             }
             return contactos;
         }
+
+
+
+
         public static async Task<List<Contactos>> ObtenerTodosAsync()
         {
             var contactos = new List<Contactos>();
@@ -69,6 +77,9 @@ namespace Agenda.DAL
             }
             return contactos;
         }
+
+
+
 
         internal static IQueryable<Contactos> QuerySelect(IQueryable<Contactos> pQuery, Contactos pContactos)
         {

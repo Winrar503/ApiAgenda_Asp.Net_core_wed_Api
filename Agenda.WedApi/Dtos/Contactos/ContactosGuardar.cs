@@ -5,7 +5,7 @@ namespace Agenda.WedApi.Dtos.Contactos
     public class ContactosGuardar
     {
         [Required(ErrorMessage = "Este campo es requerido")]
-        public int IdCategoria { get; set; }
+        public int CategoriasId { get; set; }
         [Required(ErrorMessage = "Este campo es requerido")]
         public string Nombre { get; set; }
         [Required(ErrorMessage = "Este campo es requerido")]

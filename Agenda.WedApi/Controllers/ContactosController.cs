@@ -18,7 +18,7 @@ namespace Agenda.WedApi.Controllers
         private ContactosBL deptoBL = new ContactosBL();
         private IMapper mapper;
 
-        public ContactosController()
+        public ContactosController(IMapper mapper)
         {
             this.mapper = mapper;
         }

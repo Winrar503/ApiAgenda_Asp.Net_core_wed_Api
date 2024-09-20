@@ -20,6 +20,6 @@ namespace Agenda.WedApi.Dtos.Usuario
         public string Login { get; set; }
 
         [Required(ErrorMessage = "La clave es requerida")]
-        public string Clave { get; set; }
+        public string CPasswordlave { get; set; }
     }
 }

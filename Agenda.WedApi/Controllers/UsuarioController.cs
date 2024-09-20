@@ -30,14 +30,14 @@ namespace Agenda.WedApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<UsuarioSalida>> Get()
         {
-            List<Usuario> usuarios = await usuarioBL.ObtenerTodosAsync();
+            List<Usuarios> usuarios = await usuarioBL.ObtenerTodosAsync();
             return mapper.Map<IEnumerable<UsuarioSalida>>(usuarios);
         }
 
         [HttpGet("{id}")]
         public async Task<UsuarioSalida> Get(int id)
         {
-            Usuario usuario = await usuarioBL.ObtenerPorIdAsync(new Usuario { Id = id });
+            Usuarios usuario = await usuarioBL.ObtenerPorIdAsync(new Usuarios { Id = id });
             return mapper.Map<UsuarioSalida>(usuario);
         }
 
@@ -46,7 +46,7 @@ namespace Agenda.WedApi.Controllers
         {
             try
             {
-                Usuario usuario = mapper.Map<Usuario>(usuarioGuardar);
+                Usuarios usuario = mapper.Map<Usuarios>(usuarioGuardar);
                 await usuarioBL.CrearAsync(usuario);
                 return Ok();
             }
@@ -61,7 +61,7 @@ namespace Agenda.WedApi.Controllers
         {
             if (usuarioModificar.Id == id)
             {
-                Usuario usuario = mapper.Map<Usuario>(usuarioModificar);
+                Usuarios usuario = mapper.Map<Usuarios>(usuarioModificar);
                 await usuarioBL.ModificarAsync(usuario);
                 return Ok();
             }
@@ -76,7 +76,7 @@ namespace Agenda.WedApi.Controllers
         {
             try
             {
-                await usuarioBL.EliminarAsync(new Usuario { Id = id });
+                await usuarioBL.EliminarAsync(new Usuarios { Id = id });
                 return Ok();
             }
             catch (Exception)
@@ -90,7 +90,7 @@ namespace Agenda.WedApi.Controllers
         {
             var option = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             string strUsuario = JsonSerializer.Serialize(pUsuario);
-            Usuario usuario = JsonSerializer.Deserialize<Usuario>(strUsuario, option);
+            Usuarios usuario = JsonSerializer.Deserialize<Usuarios>(strUsuario, option);
             var usuarios = await usuarioBL.BuscarIncluirRolesAsync(usuario);
             usuarios.ForEach(s => s.Rol.Usuario = null); // Evitar la redundacia de datos
             return mapper.Map<List<UsuarioSalida>>(usuarios);
@@ -100,9 +100,9 @@ namespace Agenda.WedApi.Controllers
         [AllowAnonymous]
         public async Task<ActionResult> Login([FromBody] UsuarioLogin usuarioLogin)
         {
-            Usuario usuario = mapper.Map<Usuario>(usuarioLogin);
+            Usuarios usuario = mapper.Map<Usuarios>(usuarioLogin);
             // codigo para autorizar el usuario por JWT
-            Usuario usuario_auth = await usuarioBL.LoginAsync(usuario);
+            Usuarios usuario_auth = await usuarioBL.LoginAsync(usuario);
             if (usuario_auth != null && usuario_auth.Id > 0 && usuario.Login == usuario_auth.Login)
             {
                 var token = authService.Authenticate(usuario_auth);

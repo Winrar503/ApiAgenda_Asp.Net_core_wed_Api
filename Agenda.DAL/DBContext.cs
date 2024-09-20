@@ -11,7 +11,7 @@ namespace Agenda.DAL
     public class DBContext : DbContext
     {
         public DbSet<Rol> Rol { get; set; }
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Categorias> Categorias { get; set; }
         public DbSet<Contactos> Contactos { get; set; }
         public DbSet<Notas> Notas { get; set; } 

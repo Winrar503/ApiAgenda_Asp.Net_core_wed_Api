@@ -15,7 +15,8 @@ namespace Agenda.EN
         public int Id { get; set; }
 
         [ForeignKey("Contactos")]
-        public int? IdContactos { get; set; }
+        [Column("IdContactos")]
+        public int IdContactos { get; set; }
 
         public string Descripcion { get; set; }
         public DateTime? Fin { get; set; }

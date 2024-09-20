@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Agenda.WedApi.Dtos.Categorias;
+using System.ComponentModel.DataAnnotations;
 
 namespace Agenda.WedApi.Dtos.Contactos
 {
@@ -10,5 +11,6 @@ namespace Agenda.WedApi.Dtos.Contactos
         public string Email { get; set; }
         public string FotoPath { get; set; }
         public string QrCodePath { get; set; }
+        public CategoriaSalida Categoria { get; set; }
     }
 }

@@ -19,6 +19,6 @@ namespace Agenda.EN
         public int Top_Aux { get; set; }
 
         [ValidateNever]
-        public List<Usuario> Usuario { get; set; }
+        public List<Usuarios> Usuario { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Agenda.EN
 {
-    public class Usuario
+    public class Usuarios
     {
         [Key]
         public int Id { get; set; }
@@ -28,6 +28,7 @@ namespace Agenda.EN
 
         [NotMapped]
         public int Top_Aux { get; set; }
+        [NotMapped]
         public string ConfirmPassword_aux { get; set; }
     }
 

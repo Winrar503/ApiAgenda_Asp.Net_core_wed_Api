@@ -9,6 +9,7 @@ namespace Agenda.WedApi.Dtos.Usuario
         public string Apellido { get; set; }
 
         public string Telefono { get; set; }
+        public string Password { get; set; }
 
         public string Login { get; set; }
 

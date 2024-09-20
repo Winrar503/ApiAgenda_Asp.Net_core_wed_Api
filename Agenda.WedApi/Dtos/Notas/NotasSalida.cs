@@ -1,4 +1,5 @@
-﻿namespace Agenda.WedApi.Dtos.Notas
+﻿
+namespace Agenda.WedApi.Dtos.Notas
 {
     public class NotasSalida
     {

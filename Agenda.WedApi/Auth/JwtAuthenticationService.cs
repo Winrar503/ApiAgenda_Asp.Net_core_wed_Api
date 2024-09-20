@@ -15,7 +15,7 @@ namespace Agenda.WedApi.Auth
             _key = key;
         }
 
-        public string Authenticate(Usuario pUsuario)
+        public string Authenticate(Usuarios pUsuario)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenKey = Encoding.ASCII.GetBytes(_key);

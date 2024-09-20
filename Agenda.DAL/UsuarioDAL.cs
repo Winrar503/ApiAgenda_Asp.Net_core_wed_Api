@@ -11,7 +11,7 @@ namespace Agenda.DAL
 {
     public class UsuarioDAL
     {
-        private static void EncriptarMD5(Usuario pUsuario)
+        private static void EncriptarMD5(Usuarios pUsuario)
         {
             using (var md5 = MD5.Create())
             {
@@ -23,16 +23,16 @@ namespace Agenda.DAL
             }
         }
 
-        private static async Task<bool> ExisteLogin(Usuario pUsuario, DBContext pDbContext)
+        private static async Task<bool> ExisteLogin(Usuarios pUsuario, DBContext pDbContext)
         {
             bool result = false;
-            var loginUsuarioExiste = await pDbContext.Usuario.FirstOrDefaultAsync(s => s.Login == pUsuario.Login && s.Id != pUsuario.Id);
+            var loginUsuarioExiste = await pDbContext.Usuarios.FirstOrDefaultAsync(s => s.Login == pUsuario.Login && s.Id != pUsuario.Id);
             if (loginUsuarioExiste != null && loginUsuarioExiste.Id > 0 && loginUsuarioExiste.Login == pUsuario.Login)
                 result = true;
             return result;
         }
 
-        public static async Task<int> CrearAsync(Usuario pUsuario)
+        public static async Task<int> CrearAsync(Usuarios pUsuario)
         {
             int result = 0;
             using (var bdContexto = new DBContext())
@@ -51,7 +51,7 @@ namespace Agenda.DAL
             return result;
         }
 
-        public static async Task<int> ModificarAsync(Usuario pUsuario)
+        public static async Task<int> ModificarAsync(Usuarios pUsuario)
         {
             int result = 0;
             using (var bdContexto = new DBContext())
@@ -59,7 +59,7 @@ namespace Agenda.DAL
                 bool existeLogin = await ExisteLogin(pUsuario, bdContexto);
                 if (existeLogin == false)
                 {
-                    var usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
+                    var usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
                     usuario.IdRol = pUsuario.IdRol;
                     usuario.Nombre = pUsuario.Nombre;
                     usuario.Apellido = pUsuario.Apellido;
@@ -74,39 +74,39 @@ namespace Agenda.DAL
             return result;
         }
 
-        public static async Task<int> EliminarAsync(Usuario pUsuario)
+        public static async Task<int> EliminarAsync(Usuarios pUsuario)
         {
             int result = 0;
             using (var bdContexto = new DBContext())
             {
-                var usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
-                bdContexto.Usuario.Remove(usuario);
+                var usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
+                bdContexto.Usuarios.Remove(usuario);
                 result = await bdContexto.SaveChangesAsync();
             }
             return result;
         }
 
-        public static async Task<Usuario> ObtenerPorIdAsync(Usuario pUsuario)
+        public static async Task<Usuarios> ObtenerPorIdAsync(Usuarios pUsuario)
         {
-            var usuario = new Usuario();
+            var usuario = new Usuarios();
             using (var bdContexto = new DBContext())
             {
-                usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
+                usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
             }
             return usuario;
         }
 
-        public static async Task<List<Usuario>> ObtenerTodosAsync()
+        public static async Task<List<Usuarios>> ObtenerTodosAsync()
         {
-            var usuarios = new List<Usuario>();
+            var usuarios = new List<Usuarios>();
             using (var bdContexto = new DBContext())
             {
-                usuarios = await bdContexto.Usuario.ToListAsync();
+                usuarios = await bdContexto.Usuarios.ToListAsync();
             }
             return usuarios;
         }
 
-        internal static IQueryable<Usuario> QuerySelect(IQueryable<Usuario> pQuery, Usuario pUsuario)
+        internal static IQueryable<Usuarios> QuerySelect(IQueryable<Usuarios> pQuery, Usuarios pUsuario)
         {
             if (pUsuario.Id > 0)
                 pQuery = pQuery.Where(s => s.Id == pUsuario.Id);
@@ -132,50 +132,50 @@ namespace Agenda.DAL
             return pQuery;
         }
 
-        public static async Task<List<Usuario>> BuscarAsync(Usuario pUsuario)
+        public static async Task<List<Usuarios>> BuscarAsync(Usuarios pUsuario)
         {
-            var Usuarios = new List<Usuario>();
+            var Usuarios = new List<Usuarios>();
             using (var bdContexto = new DBContext())
             {
-                var select = bdContexto.Usuario.AsQueryable();
+                var select = bdContexto.Usuarios.AsQueryable();
                 select = QuerySelect(select, pUsuario);
                 Usuarios = await select.ToListAsync();
             }
             return Usuarios;
         }
 
-        public static async Task<List<Usuario>> BuscarIncluirRolesAsync(Usuario pUsuario)
+        public static async Task<List<Usuarios>> BuscarIncluirRolesAsync(Usuarios pUsuario)
         {
-            var usuarios = new List<Usuario>();
+            var usuarios = new List<Usuarios>();
             using (var bdContexto = new DBContext())
             {
-                var select = bdContexto.Usuario.AsQueryable();
+                var select = bdContexto.Usuarios.AsQueryable();
                 select = QuerySelect(select, pUsuario).Include(s => s.Rol).AsQueryable();
                 usuarios = await select.ToListAsync();
             }
             return usuarios;
         }
 
-        public static async Task<Usuario> LoginAsync(Usuario pUsuario)
+        public static async Task<Usuarios> LoginAsync(Usuarios pUsuario)
         {
-            var usuario = new Usuario();
+            var usuario = new Usuarios();
             using (var bdContexto = new DBContext())
             {
                 EncriptarMD5(pUsuario);
-                usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.Login == pUsuario.Login &&
+                usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Login == pUsuario.Login &&
                 s.Password == pUsuario.Password && s.Estatus == (byte)Estatus_Usuario.ACTIVO);
             }
             return usuario;
         }
 
-        public static async Task<int> CambiarPasswordAsync(Usuario pUsuario, string pPasswordAnt)
+        public static async Task<int> CambiarPasswordAsync(Usuarios pUsuario, string pPasswordAnt)
         {
             int result = 0;
-            var usuarioPassAnt = new Usuario { Password = pPasswordAnt };
+            var usuarioPassAnt = new Usuarios { Password = pPasswordAnt };
             EncriptarMD5(usuarioPassAnt);
             using (var bdContexto = new DBContext())
             {
-                var usuario = await bdContexto.Usuario.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
+                var usuario = await bdContexto.Usuarios.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
                 if (usuarioPassAnt.Password == usuario.Password)
                 {
                     EncriptarMD5(pUsuario);

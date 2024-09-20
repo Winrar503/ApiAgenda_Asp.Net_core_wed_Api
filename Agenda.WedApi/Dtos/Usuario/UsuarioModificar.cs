@@ -21,5 +21,6 @@ namespace Agenda.WedApi.Dtos.Usuario
 
         [Required(ErrorMessage = "El nombre de usuario es requerido")]
         public string Login { get; set; }
+        public string Password { get; set; }
     }
 }

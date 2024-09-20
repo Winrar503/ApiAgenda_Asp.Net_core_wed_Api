@@ -4,6 +4,6 @@ namespace Agenda.WedApi.Auth
 {
     public interface IJwtAuthenticationService
     {
-        string Authenticate(Usuario pUsuario);
+        string Authenticate(Usuarios pUsuario);
     }
 }

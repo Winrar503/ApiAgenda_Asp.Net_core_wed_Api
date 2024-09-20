@@ -7,6 +7,6 @@ namespace Agenda.WedApi.Dtos.Usuario
         [Required]
         public string Login { get; set; }
         [Required]
-        public string Clave { get; set; }
+        public string Password { get; set; }
     }
 }

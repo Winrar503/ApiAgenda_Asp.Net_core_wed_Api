@@ -14,8 +14,8 @@ namespace Agenda.EN
         [Key]
         public int Id { get; set; }
         [ForeignKey("Categorias")]
-        public int? IdCategoria { get; set; }
-        //public bool Eliminado { get; set; }
+        public int CategoriasId { get; set; }
+        public bool Eliminado { get; set; } = false;
         public string Email { get; set; }       
         public string FotoPath { get; set; }       
         public string Nombre { get; set; }
@@ -25,6 +25,7 @@ namespace Agenda.EN
         [NotMapped]
         [ValidateNever]
         public Categorias Categorias { get; set; }
+        [NotMapped]
         public int Top_Aux {  get; set; }
         [ValidateNever]
         public List<Eventos> Eventos { get; set; }
