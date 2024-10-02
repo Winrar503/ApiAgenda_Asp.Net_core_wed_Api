@@ -21,6 +21,7 @@ namespace Agenda.WedApi.Utilidades
             CreateMap<ContactosModifcar, Contactos>();
             CreateMap<Contactos, ContactosSalida>();
 
+
             CreateMap<EventosGuardar, Eventos>();
             CreateMap<EventosModificar, Eventos>();
             CreateMap<Eventos, EventosSalida>();

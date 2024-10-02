@@ -14,6 +14,7 @@ namespace Agenda.EN
     {
         [Key]
         public int Id { get; set; }
+        [Required(ErrorMessage = "El nombre es requerido")]
         public string Nombre { get; set; }
         public bool Eliminado { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Agenda.BL;
+using Agenda.DAL;
 using Agenda.EN;
 using Agenda.WedApi.Dtos.Categorias;
 using Agenda.WedApi.Dtos.Contactos;
@@ -12,10 +13,11 @@ namespace Agenda.WedApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ContactosController : Controller
     {
         private ContactosBL deptoBL = new ContactosBL();
+        private NotasBL notasBL = new NotasBL();
         private IMapper mapper;
 
         public ContactosController(IMapper mapper)
@@ -24,7 +26,7 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<IEnumerable<ContactosSalida>> Get()
         {
             List<Contactos> contactos = await deptoBL.ObtenerTodosAsync();
@@ -35,11 +37,12 @@ namespace Agenda.WedApi.Controllers
         public async Task<ContactosSalida> Get(int id)
         {
             Contactos depto = await deptoBL.ObtenerPorIdAsync(new Contactos { Id = id });
+            //contactos.Notas = await notasBL.ObtenerTodosPorContactoAsync(contacto.Id); // Obtener las notas del contacto
             return mapper.Map<ContactosSalida>(depto);
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<ActionResult> Post([FromBody] ContactosGuardar contactosGuardar)
         {
             try
@@ -48,8 +51,9 @@ namespace Agenda.WedApi.Controllers
                 await deptoBL.CrearAsync(contactos);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine($"Error: {ex.Message}");
                 return BadRequest();
             }
         }

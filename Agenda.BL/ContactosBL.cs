@@ -40,5 +40,10 @@ namespace Agenda.BL
         {
             return await ContactosDAL.BuscarAsync(pContactos);
         }
+        //public async Task<List<Notas>> ObtenerTodosPorContactoAsync(Notas pNotas)
+        //{
+        //    return await NotasDAL.ObtenerTodosPorContactoAsync(pNotas);
+        //}
+
     }
 }

@@ -28,7 +28,8 @@ namespace Agenda.DAL
             {
                 var categorias = await bdContexto.Categorias.FirstOrDefaultAsync(c => c.Id == pCategorias.Id);
                 categorias.Nombre = pCategorias.Nombre;
-                
+                bdContexto.Update(categorias);
+                result = await bdContexto.SaveChangesAsync();
 
             }
             return result;

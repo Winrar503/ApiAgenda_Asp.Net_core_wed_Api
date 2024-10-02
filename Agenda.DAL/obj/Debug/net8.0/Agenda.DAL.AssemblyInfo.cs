@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agenda.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6071b4ac89f9003e1c7d93bd971d1f9893e24e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c832794f65ffc5ffbabfd5e80adfd3d6fdbc3eca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agenda.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agenda.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

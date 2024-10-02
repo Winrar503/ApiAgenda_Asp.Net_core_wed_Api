@@ -14,7 +14,7 @@ namespace Agenda.WedApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class NotasController : Controller
     {
         private NotasBL notasBL = new NotasBL();
@@ -95,5 +95,13 @@ namespace Agenda.WedApi.Controllers
             List<Notas> notas = await notasBL.BuscarAsync(nota);
             return mapper.Map<List<NotasSalida>>(notas);
         }
+
+        //[HttpGet("contacto/{contactoId}")]
+        //public async Task<IEnumerable<NotasSalida>> GetByContactoId(int contactoId)
+        //{
+        //    List<Notas> notas = await notasBL.ObtenerPorContactoIdAsync(contactoId);
+        //    return mapper.Map<IEnumerable<NotasSalida>>(notas);
+        //}
+
     }
 }

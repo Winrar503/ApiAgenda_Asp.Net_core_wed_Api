@@ -11,7 +11,7 @@ namespace Agenda.WedApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class CategoriasController : Controller
     {
         private CategoriasBL deptoBL = new CategoriasBL();
@@ -23,7 +23,7 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<IEnumerable<CategoriaSalida>> Get()
         {
             List<Categorias> categorias = await deptoBL.ObtenerTodosAsync();
@@ -39,7 +39,7 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<ActionResult> Post([FromBody] CategoriaGuardar categoriaGuardar)
         {
             try
@@ -48,9 +48,9 @@ namespace Agenda.WedApi.Controllers
                 await deptoBL.CrearAsync(categorias);
                 return Ok();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest(new { message = $"Error al guardar la categoría: {ex.Message}" });
             }
         }
 

@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "DeptosES", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ContacApiAgenda", Version = "v1" });
 
     // *** Incluir  JWT Authentication ***
     var jwtSecurityScheme = new OpenApiSecurityScheme

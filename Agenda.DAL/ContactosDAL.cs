@@ -37,8 +37,9 @@ namespace Agenda.DAL
                 contactos.Numero = pContactos.Numero;
                 contactos.QrCodePath = pContactos.QrCodePath;
                 contactos.FotoPath = pContactos.FotoPath;
-                contactos.Email = pContactos.Email; 
+                contactos.Email = pContactos.Email;
                 contactos.CategoriasId = pContactos.CategoriasId;
+                result = await bdContext.SaveChangesAsync();
             }
             return result;
         }
@@ -66,6 +67,14 @@ namespace Agenda.DAL
         }
 
 
+        public static async Task<List<Notas>> ObtenerTodosPorContactoAsync(int contactoId)
+        {
+            var contactos = new List<Notas>();
+            using (var bdContexto = new DBContext())
+            {
+                return await bdContexto.Notas.Where(n => n.IdContactos == contactoId).ToListAsync();
+            }
+        }
 
 
         public static async Task<List<Contactos>> ObtenerTodosAsync()
@@ -85,7 +94,8 @@ namespace Agenda.DAL
         {
             if (pContactos.Id > 0)
                 pQuery = pQuery.Where(s => s.Id == pContactos.Id);
-
+            if (pContactos.CategoriasId > 0)
+                pQuery = pQuery.Where(s => s.CategoriasId == pContactos.CategoriasId);
             if (!string.IsNullOrWhiteSpace(pContactos.Nombre))
                 pQuery = pQuery.Where(s => s.Nombre.Contains(pContactos.Nombre));
 
@@ -105,9 +115,9 @@ namespace Agenda.DAL
             var contactos = new List<Contactos>();
             using (var bdContexto = new DBContext())
             {
-                var select  = bdContexto.Contactos.AsQueryable();
+                var select = bdContexto.Contactos.AsQueryable();
                 select = QuerySelect(select, pContactos);
-                contactos =  await select.ToListAsync();
+                contactos = await select.ToListAsync();
             }
             return contactos;
         }

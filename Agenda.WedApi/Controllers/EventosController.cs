@@ -12,7 +12,7 @@ namespace Agenda.WedApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class EventosController : Controller
     {
         private EventosBL deptoBL = new EventosBL();
@@ -23,7 +23,7 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<IEnumerable<EventosSalida>> Get()
         {
             List<Eventos> eventos= await deptoBL.ObtenerTodosAsync();
@@ -38,7 +38,7 @@ namespace Agenda.WedApi.Controllers
         }
 
         [HttpPost]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public async Task<ActionResult> Post([FromBody] EventosGuardar eventosGuardar)
         {
             try

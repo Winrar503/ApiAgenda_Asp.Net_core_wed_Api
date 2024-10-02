@@ -36,7 +36,7 @@ namespace Agenda.DAL
         {
             int result = 0;
             using (var bdContext = new DBContext())
-            {
+            { 
                 var notas = await bdContext.Notas.FirstOrDefaultAsync(c => c.Id == pNotas.Id);
                 bdContext.Notas.Remove(notas);
                 result = await bdContext.SaveChangesAsync();
