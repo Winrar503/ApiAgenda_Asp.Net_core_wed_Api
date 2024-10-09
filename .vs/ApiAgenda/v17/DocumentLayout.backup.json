@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.dal\\notasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|solutionrelative:agenda.dal\\notasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.dal\\contactosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|solutionrelative:agenda.dal\\contactosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.bl\\contactosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|solutionrelative:agenda.bl\\contactosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.wedapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E07DE7-687D-4632-A256-12D70AFAB77A}|Agenda.WedApi\\Agenda.WedApi.csproj|solutionrelative:agenda.wedapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.dal\\categoriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|solutionrelative:agenda.dal\\categoriasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42327C80-3396-44E8-B298-B32225DA3D2B}|Agenda.DAL\\Agenda.DAL.csproj|solutionrelative:agenda.dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|c:\\users\\darwi\\onedrive\\escritorio\\universidad\\c#\\apiagenda\\agenda.bl\\contactosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDBC4B93-13D0-43B4-891E-D7A986FE849E}|Agenda.BL\\Agenda.BL.csproj|solutionrelative:agenda.bl\\contactosbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +18,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ContactosBL.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.BL\\ContactosBL.cs",
               "RelativeDocumentMoniker": "Agenda.BL\\ContactosBL.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.BL\\ContactosBL.cs",
               "RelativeToolTip": "Agenda.BL\\ContactosBL.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wC0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:42:01.73Z"
-            },
+              "WhenOpened": "2024-10-04T05:16:11.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Controllers\\NotasController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:18:32.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactosController.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\ContactosController.cs",
-              "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\ContactosController.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\ContactosController.cs",
-              "RelativeToolTip": "Agenda.WedApi\\Controllers\\ContactosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwCcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:35:46.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\ContactosDAL.cs",
-              "RelativeDocumentMoniker": "Agenda.DAL\\ContactosDAL.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\ContactosDAL.cs",
-              "RelativeToolTip": "Agenda.DAL\\ContactosDAL.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAmwEcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:27:16.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\NotasDAL.cs",
-              "RelativeDocumentMoniker": "Agenda.DAL\\NotasDAL.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\NotasDAL.cs",
-              "RelativeToolTip": "Agenda.DAL\\NotasDAL.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwEQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T03:09:06.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriasDAL.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\CategoriasDAL.cs",
-              "RelativeDocumentMoniker": "Agenda.DAL\\CategoriasDAL.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\CategoriasDAL.cs",
-              "RelativeToolTip": "Agenda.DAL\\CategoriasDAL.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:27:44.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "Agenda.WedApi\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.WedApi\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "Agenda.WedApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T16:50:45.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\DBContext.cs",
-              "RelativeDocumentMoniker": "Agenda.DAL\\DBContext.cs",
-              "ToolTip": "C:\\Users\\darwi\\OneDrive\\Escritorio\\Universidad\\C#\\ApiAgenda\\Agenda.DAL\\DBContext.cs",
-              "RelativeToolTip": "Agenda.DAL\\DBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T03:08:29.916Z"
+              "WhenOpened": "2024-10-04T05:06:34.531Z",
+              "EditorCaption": ""
             }
           ]
         }
